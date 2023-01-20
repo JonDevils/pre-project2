@@ -41,8 +41,8 @@ public class MainApp {
          System.out.println("Car = " + user.getCar());
          System.out.println();
       }
-      System.out.println("Найти \"BMW X5\"");
-      System.out.println(userService.findOwner("BMW", "X5"));
+      System.out.println("Найти \"A\"");
+      System.out.println(userService.findOwner("A", "1"));
       context.close();
    }
 }
